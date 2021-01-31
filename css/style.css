@@ -1,0 +1,137 @@
+.navbar {
+  background: #000;
+}
+.navbar .nav-item {
+  padding-left: 1em;
+}
+.navbar .nav-item .nav-link {
+  text-transform: uppercase;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img-1 {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+}
+
+.carousel-img-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+}
+
+.carousel-img-3 {
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+}
+
+#homeIcon .fa {
+  font-size: 50px;
+}
+
+#getstarted {
+  background: url("../img/bg1.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#getstarted .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#home-video {
+  background: url("../img/people.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 250px;
+  position: relative;
+}
+#home-video .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#home-video .dark-overlay .fa {
+  font-size: 50px;
+  color: red;
+}
+
+#photo-gallary img {
+  min-height: 230px;
+}
+
+#copyright {
+  background: #000;
+}
+
+#about-head {
+  background: url("../img/image1.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+
+#about-info img {
+  width: 350px;
+  height: 350px;
+}
+
+#icon-box .fa {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#testimonial .slick-prev:before,
+#testimonial .slick-next:before {
+  color: #000;
+}
+
+#service-head {
+  background: url("../img/image2.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+
+#blog-head {
+  background: url("../img/image3.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+
+#contact-head {
+  background: url("../img/image3.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 200px;
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0px !important;
+  }
+  #getstarted {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  #showcase h2 {
+    font-size: 2.4rem;
+  }
+  #getstarted {
+    min-height: 400px;
+  }
+}
